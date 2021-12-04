@@ -3,4 +3,7 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="search">Search</string>
+    <string name="news_about_far_city">News About Far City</string>
+    <string name="search_news_about_far_city">Search News About Far City</string>
 </resources>
