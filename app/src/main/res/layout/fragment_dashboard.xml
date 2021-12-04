@@ -7,16 +7,75 @@
     tools:context=".ui.dashboard.DashboardFragment">
 
     <TextView
-        android:id="@+id/text_dashboard"
+        android:id="@+id/news_headline_search"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:textAlignment="center"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="@string/news_about_far_city"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/detail_news"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/search_news_about_far_city"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/news_headline_search"
+        android:layout_marginEnd="25dp"
+        android:layout_marginStart="25dp"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+
+        android:layout_marginTop="12dp"/>
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/search_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/searchbar"
+        app:layout_constraintTop_toBottomOf="@id/detail_news"
+        android:layout_marginTop="33dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="26dp"
+        android:layout_marginEnd="26dp"
+        >
+
+
+
+        <EditText
+            android:id="@+id/editMobileNo"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:layout_marginEnd="15dp"
+            android:drawableStart="@drawable/ic_search"
+            android:hint="@string/search"
+            android:background="@color/white"
+            android:textAlignment="textStart"
+            android:autofillHints="Search"
+            android:inputType="text">
+        </EditText>
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/search_bar"
+        android:layout_marginStart="26dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginTop="50dp"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
