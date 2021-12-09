@@ -1,9 +1,28 @@
 <resources>
-    <string name="app_name">PekoNews</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
     <string name="search">Search</string>
     <string name="news_about_far_city">News About Far City</string>
     <string name="search_news_about_far_city">Search News About Far City</string>
+    <string name="app_name">PekoNews</string>
+    <string name="title_home">Home</string>
+    <string name="title_news">News</string>
+    <string name="title_profile">Profile</string>
+    <string name="descrip_title">Far Cry 6 Release Date, System
+        \nRequirements,Cast, Price,
+        \nGameplay, Review, and More</string>
+    <string name="top_news">Top News</string>
+    <string name="popular_game">Popular game</string>
+    <string name="txt_trending_games">Trending Games</string>
+    <string name="news">News</string>
+    <string name="profile">Profile</string>
+    <string name="content_image_profile">content_image_profile</string>
+    <string name="mochammad_lego_fendriansyah">Mochammad Lego Fendriansyah</string>
+    <string name="contact">Contact</string>
+    <string name="lego_fendriansyah">Lego Fendriansyah</string>
+    <string name="mochammad_lego">Mochammad Lego</string>
+    <string name="lego1922_gmail_com">lego1922@gmail.com</string>
+    <string name="_phone_number">081288995533</string>
+    <string name="image_for_recipe">Image For Recipe</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="image_home">image home</string>
 </resources>

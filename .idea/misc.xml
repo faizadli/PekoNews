@@ -3,12 +3,23 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/github.xml" value="0.11197916666666667" />
+        <entry key="app/src/main/res/drawable/ic_news.xml" value="0.11510416666666666" />
+        <entry key="app/src/main/res/drawable/ic_profile.xml" value="0.11510416666666666" />
         <entry key="app/src/main/res/drawable/ic_search.xml" value="0.20277777777777778" />
+        <entry key="app/src/main/res/drawable/linkedin.xml" value="0.11197916666666667" />
+        <entry key="app/src/main/res/drawable/mail.xml" value="0.11197916666666667" />
+        <entry key="app/src/main/res/drawable/phone.xml" value="0.11197916666666667" />
         <entry key="app/src/main/res/drawable/searchbar.xml" value="0.20277777777777778" />
+        <entry key="app/src/main/res/layout/activity_detail.xml" value="0.19882246376811594" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.20516304347826086" />
         <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.23753066014596413" />
-        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.20516304347826086" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.25420341938156465" />
+        <entry key="app/src/main/res/layout/fragment_news.xml" value="0.17119565217391305" />
         <entry key="app/src/main/res/layout/fragment_notifications.xml" value="0.20729166666666668" />
+        <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.14" />
+        <entry key="app/src/main/res/layout/layout_news.xml" value="0.13436745301052577" />
+        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.20729166666666668" />
       </map>
     </option>
   </component>
