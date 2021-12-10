@@ -130,7 +130,7 @@ object NewsData {
                 "\n" +
                 "Ninja Gaiden Black\n" +
                 "￼\n" +
-                "The Ninja Gaiden games are actually very difficult. The players always complained about the unforgiving difficulty level that the games posed.\n" +
+                "The Ninjak Gaiden games are actually very difficult. The players always complained about the unforgiving difficulty level that the games posed.\n" +
                 "\n" +
                 "\n" +
                 "\n" +
